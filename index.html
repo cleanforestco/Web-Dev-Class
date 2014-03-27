@@ -41,7 +41,7 @@
 		<div class="reveal">
 
 			<div class="slides">
-			<!-- Any section element inside of this container is displayed as a slide -->
+				<!-- Any section element inside of this container is displayed as a slide -->
 
 				<section id="stylesetup">
 					<p>
@@ -68,12 +68,13 @@
 				</section>
 
 				<section id="instructions">
-					<h1>WHILE WAITING...</h1>
+					<h1>WHILE WAITING..</h1>
 					<h3>PLEASE DOWNLOAD (but don't install):</h3>
 					<ol>
 						<li>DesktopServer Limited (free): <a href="http://serverpress.com/downloads/">http://serverpress.com/downloads/</a></li>
 						<li>Sublimetext 2: <a href="http://www.sublimetext.com/2">http://www.sublimetext.com/2</a></li>
 					</ol>
+					<img src="images/cartoon_python.jpg">
 				</section>
 
 				<section>
@@ -81,92 +82,57 @@
 					<p>...you could be outside enjoying this <a href="#">$weather_adjective</a> day...</p>
 				</section>
 
-		
+				<section id="fragments">
+					<h2>WHY AM I HERE!?</h2>
+					<blockquote class="fragment" cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+						&ldquo;There's never been a BETTER, more EXCITING time develop for the web. The internet is the foundation for the economy, entertainment, education and nearly EVERYTHING else. Knowing the digital languages which power the internet is an essential skill. And talented developers will soon be the most SOUGHT AFTER type of employee for just about any company. This is an amazing opportunity to CREATE, BUILD and INNOVATE. This is the RIGHT TIME and the RIGHT PLACE. This is like being a ROCK STAR in the late sixties. This is like being a film maker in the seventies. When you know how to CODE, BUILD and CREATE, you can do ANYTHING. CODING is the LITERACY of the 21st century.&rdquo;
+					</blockquote>
+					<blockquote class="fragment" cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+						&ldquo;Everybody in this country should learn to program a computer, because it teaches you how to think.&rdquo; Steve Jobs
+					</blockquote>
+					<blockquote class="fragment" cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+						&ldquo;Learning to code stretches your mind, and helps you think better, creates a way of thinking about things that I think is helpful in all domains.&rdquo; Bill Gates
+					</blockquote>
+					<blockquote class="fragment" cite="https://www.youtube.com/watch?v=nKIu9yen5nc">
+						&ldquo;Great coders are today's rock starts. That's it.&rdquo; Will.i.am
+					</blockquote>
+					<aside class="notes">
+						Whether you are hoping to turn in into a career or one day build your own app or even just code as a hobby coding is a great life skill. I'm here because I like to share this knowledge.
+					</aside>
+				</section>
 
 				<section>
-					<h2>Global State</h2>
-					<p>
-						Set <code>data-state="something"</code> on a slide and <code>"something"</code>
-						will be added as a class to the document element when the slide is open. This lets you
-						apply broader style changes, like switching the background.
-					</p>
+					<h2>Let's Install Desktop Server</h2>
+					<img src="images/desktopserver.jpg">
 				</section>
 
-				<section data-state="customevent">
-					<h2>Custom Events</h2>
-					<p>
-						Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
-					</p>
-					<pre><code data-trim contenteditable style="font-size: 18px; margin-top: 20px;">
-						Reveal.addEventListener( 'customevent', function() {
-						console.log( '"customevent" has fired' );
-					} );
-				</code></pre>
-			</section>
-
-			<section>
-				<section data-background="#007777">
-					<h2>Slide Backgrounds</h2>
-					<p>
-						Set <code>data-background="#007777"</code> on a slide to change the full page background to the given color. All CSS color formats are supported.
-					</p>
-					<a href="#" class="image navigate-down">
-						<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-					</a>
+				<section>
+					<h2>Let's Install Sublime Text</h2>
+					<img src="images/sublimetext.jpg">
 				</section>
-				<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png">
-					<h2>Image Backgrounds</h2>
-					<pre><code>&lt;section data-background="image.png"&gt;</code></pre>
+
+				<section>
+					<h2>Let's Talk About The Web...</h2>
 				</section>
-				<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" data-background-repeat="repeat" data-background-size="100px">
-					<h2>Repeated Image Backgrounds</h2>
-					<pre><code style="word-wrap: break-word;">&lt;section data-background="image.png" data-background-repeat="repeat" data-background-size="100px"&gt;</code></pre>
-				</section>
-			</section>
 
-			<section data-transition="linear" data-background="#4d7e65" data-background-transition="slide">
-				<h2>Background Transitions</h2>
-				<p>
-					Pass reveal.js the <code>backgroundTransition: 'slide'</code> config argument to make backgrounds slide rather than fade.
-				</p>
-			</section>
 
-			<section data-transition="linear" data-background="#8c4738" data-background-transition="slide">
-				<h2>Background Transition Override</h2>
-				<p>
-					You can override background transitions per slide by using <code>data-background-transition="slide"</code>.
-				</p>
-			</section>
+<section>
+	<h2>Pretty Code</h2>
+	<pre><code data-trim contenteditable>
+		function linkify( selector ) {
+		if( supports3DTransforms ) {
 
-			<section>
-				<h2>Clever Quotes</h2>
-				<p>
-					These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-					&ldquo;The nice thing about standards is that there are so many to choose from&rdquo;</q> and block:
-				</p>
-				<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-					&ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
-					reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
-				</blockquote>
-			</section>
+		var nodes = document.querySelectorAll( selector );
 
-			<section>
-				<h2>Pretty Code</h2>
-				<pre><code data-trim contenteditable>
-					function linkify( selector ) {
-					if( supports3DTransforms ) {
+		for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
+		var node = nodes[i];
 
-					var nodes = document.querySelectorAll( selector );
-
-					for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
-					var node = nodes[i];
-
-					if( !node.className ) {
-					node.className += ' roll';
-				}
-			}
-		}
+		if( !node.className ) {
+		node.className += ' roll';
 	}
+}
+}
+}
 </code></pre>
 </section>
 
@@ -182,7 +148,7 @@
 	<section id="fragments">
 		<h2>Fragmented Views</h2>
 		<p>Hit the next arrow...</p>
-		<p class="fragment">... to step through ...</p>
+		<p class="fragment highlight-red">... to step through ...</p>
 		<ol>
 			<li class="fragment"><code>any type</code></li>
 			<li class="fragment"><em>of view</em></li>
@@ -207,14 +173,6 @@
 		<p class="fragment highlight-current-blue">highlight-current-blue</p>
 	</section>
 </section>
-
-<section>
-	<h2>Spectacular image!</h2>
-	<a class="image" href="http://lab.hakim.se/meny/" target="_blank">
-		<img width="320" height="299" src="http://s3.amazonaws.com/hakim-static/portfolio/images/meny.png" alt="Meny">
-	</a>
-</section>
-
 
 
 <section>
