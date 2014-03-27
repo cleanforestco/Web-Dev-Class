@@ -1,3 +1,26 @@
+# Introduction to Website Development Class
+
+* Setup using Grunt
+npm install -g grunt-cli
+npm install
+grunt
+
+* Setting up multiplex
+https://github.com/hakimel/reveal.js/blob/master/README.md
+https://github.com/cloudhead/node-static
+
+$ npm install -g node-static
+$ static
+
+$ node plugin/multiplex
+
+
+#### Useful keyboard commands.
+Esc to see all slides.
+S to reveal Speaker notes.
+Alt-click to zoom using zoom.js.
+
+
 # reveal.js [![Build Status](https://travis-ci.org/hakimel/reveal.js.png?branch=master)](https://travis-ci.org/hakimel/reveal.js)
 
 A framework for easily creating beautiful presentations using HTML. [Check out the live demo](http://lab.hakim.se/reveal-js/).
