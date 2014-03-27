@@ -40,8 +40,8 @@
 
 		<div class="reveal">
 
-			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
+			<!-- Any section element inside of this container is displayed as a slide -->
 
 				<section id="stylesetup">
 					<p>
@@ -59,25 +59,26 @@
 					</small></p>
 				</section>
 
-
-				<section id="coverslide">
+				<section id="coverslide" data-background="https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg" data-background-size="cover" data-background-repeat="no-repeat"> 
 					<h1>WEB DEVELOPMENT</h1>
 					<h3>Introductory Class</h3>
 					<p>
-						<small>Created by <a href="http://cleanforest.co">Noam Eppel</a> / <a href="http://twitter.com/cleanforestco">@cleanforestco</a></small>
+						<small>Created by <a href="http://cleanforest.co">Noam Eppel</a> / <a href="mailto:noam@cleanforest.co">noam@cleanforest.co</a></small>
 					</p>
 				</section>
 
-				<section>
-					<h2>Heads Up</h2>
-					<p>
-						reveal.js is a framework for easily creating beautiful presentations using HTML. You'll need a browser with
-						support for CSS 3D transforms to see it in its full glory.
-					</p>
+				<section id="instructions">
+					<h1>WHILE WAITING...</h1>
+					<h3>PLEASE DOWNLOAD (but don't install):</h3>
+					<ol>
+						<li>DesktopServer Limited (free): <a href="http://serverpress.com/downloads/">http://serverpress.com/downloads/</a></li>
+						<li>Sublimetext 2: <a href="http://www.sublimetext.com/2">http://www.sublimetext.com/2</a></li>
+					</ol>
+				</section>
 
-					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-					</aside>
+				<section>
+					<h1>WHY ARE YOU HERE?!</h1>
+					<p>...you could be outside enjoying this <a href="#">$weather_adjective</a> day...</p>
 				</section>
 
 		
@@ -236,6 +237,9 @@
 <section>
 	<h1>THANK YOU</h1>
 	<h3>THIS IS THE END.</h3>
+	<aside class="notes">
+		Be sure to thank CVS and everyone else.
+	</aside>
 </section>
 
 </div>
@@ -257,7 +261,7 @@
 				center: true,
 
 				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-				transition: Reveal.getQueryHash().transition || 'none', // default/cube/page/concave/zoom/linear/fade/none
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
 
 				// Parallax scrolling
 				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
