@@ -18,9 +18,5 @@ $ node plugin/multiplex
 ### Useful keyboard commands.
 Esc to see all slides.
 S to reveal Speaker notes. When used locally, this feature requires that reveal.js runs from a local web server.
+Press b or period on your keyboard to enter the 'paused' mode.
 Alt-click to zoom using zoom.js.
-
-## Reveal.js License
-
-MIT licensed
-Copyright (C) 2014 Hakim El Hattab, http://hakim.se
