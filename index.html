@@ -4,10 +4,10 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>reveal.js - The HTML Presentation Framework</title>
+	<title>Web Development Class</title>
 
 	<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-	<meta name="author" content="Hakim El Hattab">
+	<meta name="author" content="Noam Eppel">
 
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -45,30 +45,18 @@
 
 				<section id="stylesetup">
 					<p>
-						<small>Set your style for the presentation.</small>
+						<small>Set Presentation Style</small>
 					</p>
-					<p>
-						<a href="?#/coverslide">Default</a> -
-						<a href="?theme=sky#/coverslide">Sky</a> -
-						<a href="?theme=beige#/coverslide">Beige</a> -
-						<a href="?theme=simple#/coverslide">Simple</a> -
-						<a href="?theme=serifX#/coverslide">Serif</a> -
-						<a href="?theme=night#/coverslide">Night</a> <br>
-						<a href="?theme=moon#/coverslide">Moon</a> -
-						<a href="?theme=solarized#/coverslide">Solarized</a>
-					</p>
-					<div id="transitions">
-						<p>
-							<a href="?transition=cube#/transitions">Cube</a> -
-							<a href="?transition=page#/transitions">Page</a> -
-							<a href="?transition=concave#/transitions">Concave</a> -
-							<a href="?transition=zoom#/transitions">Zoom</a> -
-							<a href="?transition=linear#/transitions">Linear</a> -
-							<a href="?transition=fade#/transitions">Fade</a> -
-							<a href="?transition=none#/transitions">None</a> -
-							<a href="?#/transitions">Default</a>
-						</p>
-					</div>
+					<p><small>
+						<a href="?#/stylesetup">Default</a> -
+						<a href="?theme=sky#/stylesetup">Sky</a> -
+						<a href="?theme=beige#/stylesetup">Beige</a> -
+						<a href="?theme=simple#/stylesetup">Simple</a> -
+						<a href="?theme=serifX#/stylesetup">Serif</a> -
+						<a href="?theme=night#/stylesetup">Night</a> <br>
+						<a href="?theme=moon#/stylesetup">Moon</a> -
+						<a href="?theme=solarized#/stylesetup">Solarized</a>
+					</small></p>
 				</section>
 
 
@@ -78,28 +66,6 @@
 					<p>
 						<small>Created by <a href="http://cleanforest.co">Noam Eppel</a> / <a href="http://twitter.com/cleanforestco">@cleanforestco</a></small>
 					</p>
-					<p><small>
-						<a href="?#/coverslide">Default</a> -
-						<a href="?theme=sky#/coverslide">Sky</a> -
-						<a href="?theme=beige#/coverslide">Beige</a> -
-						<a href="?theme=simple#/coverslide">Simple</a> -
-						<a href="?theme=serifX#/coverslide">Serif</a> -
-						<a href="?theme=night#/coverslide">Night</a> <br>
-						<a href="?theme=moon#/coverslide">Moon</a> -
-						<a href="?theme=solarized#/coverslide">Solarized</a>
-					</small></p>
-					<div id="transitions">
-						<p><small>
-							<a href="?transition=cube#/transitions">Cube</a> -
-							<a href="?transition=page#/transitions">Page</a> -
-							<a href="?transition=concave#/transitions">Concave</a> -
-							<a href="?transition=zoom#/transitions">Zoom</a> -
-							<a href="?transition=linear#/transitions">Linear</a> -
-							<a href="?transition=fade#/transitions">Fade</a> -
-							<a href="?transition=none#/transitions">None</a> -
-							<a href="?#/transitions">Default</a>
-						</small></p>
-					</div>
 				</section>
 
 				<section>
@@ -291,7 +257,7 @@
 				center: true,
 
 				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+				transition: Reveal.getQueryHash().transition || 'none', // default/cube/page/concave/zoom/linear/fade/none
 
 				// Parallax scrolling
 				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
