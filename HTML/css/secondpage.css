@@ -48,3 +48,37 @@
 	padding: 20px;
 	background: red;
 }
+
+.float1 {
+	height: 100px;
+	width: 100px;
+	float: left;
+	margin: 20px;
+	background: blue;
+}
+
+.float2 {
+	height: 100px;
+	width: 100px;
+	float: left;
+	margin: 20px;
+	background: blue;
+	background: url('http://placekitten.com/100/100');
+}
+
+
+.float3 {
+	height: 100px;
+	width: 100px;
+	float: left;
+	margin: 20px;
+	background: blue;
+}
+
+.float4 {
+	height: 100px;
+	width: 100px;
+	float: right;
+	margin: 20px;
+	background: blue;
+}
