@@ -1,5 +1,11 @@
-@media (max-width: 600px) {
-  .facet_sidebar {
-    display: none;
-  }
+.special {
+	/*border: 20px solid red;*/
 }
+
+@media only screen and (min-width : 504px) and (max-width : 1204px) {
+	.special {
+			border: 20px solid green;
+		}
+}
+
+/* @media (min-width: 700px) and (orientation: landscape) { ... } */

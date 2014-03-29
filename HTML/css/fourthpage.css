@@ -1,0 +1,14 @@
+.small {
+	display: none;
+}
+
+@media only screen and (max-width : 500px) {
+	.large {
+			display: none;
+		}
+	.small {
+		display: block;
+	}
+}
+
+/* @media (min-width: 700px) and (orientation: landscape) { ... } */
