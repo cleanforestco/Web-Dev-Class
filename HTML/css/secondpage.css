@@ -1,0 +1,50 @@
+
+.container {
+	width: 800px;
+	margin-top: 150px;
+	background: yellow;
+	/* Why so short? */
+}
+
+.container .special {
+	background: lightblue;
+	border: 10px solid purple;
+	width: 25%;
+	margin-right: 10px;
+	display: inline-block;
+}
+
+.one {
+	position: static;
+}
+
+.left {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	background: red;
+}
+.right {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 20px;
+	background: red;
+}
+
+.leftbottom {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 20px;
+	background: red;
+}
+
+.rightbottom {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	padding: 20px;
+	background: red;
+}
